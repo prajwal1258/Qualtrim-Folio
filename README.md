@@ -1,6 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Qualtrim Folio
 
-## Getting Started
+Qualtrim Folio is a modern, visually engaging web application for managing digital assets and portfolios. Built with Next.js, it offers a sleek dashboard, advanced graphical interfaces using Three.js shaders, and robust user authentication.
+
+## ✨ Features
+
+- **Dashboard & Analytics:** Comprehensive views to track and analyze your digital portfolio.
+- **User Authentication:** Fully integrated signup, signin, and account management flows.
+- **Settings & Account Management:** Dedicated configuration options tailored to the user.
+- **Rich Graphics:** Premium visual aesthetic powered by Three.js and `@react-three/fiber` for immersive 3D background shaders.
+- **Data Visualization:** Interactive charts using Recharts.
+
+## 🛠 Tech Stack
+
+- **Framework:** [Next.js](https://nextjs.org/) (App Router, Version 16+)
+- **UI & DOM:** [React 19](https://react.dev/)
+- **Styling:** [Tailwind CSS 4](https://tailwindcss.com/)
+- **Graphics & 3D:** [Three.js](https://threejs.org/), `@react-three/fiber`, `@react-three/drei`
+- **Charting:** [Recharts](https://recharts.org/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **Language:** TypeScript
+
+## 🚀 Getting Started
 
 First, run the development server:
 
@@ -16,21 +36,12 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `src/app/`: Contains the Next.js App Router structure, including pages for `/dashboard`, `/analytics`, `/account`, `/settings`, `/signin`, /signup`, and API routes.
+- `src/components/`: Reusable React components, including UI and shader backgrounds.
+- `src/context/`: Context providers (e.g., `AuthContext`).
 
-## Learn More
+## 📜 License
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is proprietary.
